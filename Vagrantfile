@@ -17,7 +17,7 @@ Vagrant.configure(2) do |config|
     d.name            = "app"
     d.ports           = ["8000:8000", "35729:35729"]
     d.remains_running = true
-    d.has_ssh         = true
+    d.has_ssh         = false
   end
 
 end
